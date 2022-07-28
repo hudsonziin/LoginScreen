@@ -61,7 +61,25 @@
     .send{
         width: 100%;
         background-color: #f6f6f9;
-        /* padding: 20px;
-        align-items: center; */
+        height: 50px;
+        padding: 20px;
+        align-items: center;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        border-radius: 5px;
     }
-    
+     .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        gap: 10px;
+    }
+    .link > a{
+        color: #f6f6f9;
+        text-decoration: none;
+    }
